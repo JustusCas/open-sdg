@@ -38,6 +38,7 @@
 
   {%- for goalreport in site.data.reporting.goals -%}
     {%- assign goal_number = goalreport.goal  | downcase -%}
+    {%- assign default_goal = site.data.translations[default_language].global_goals[goal_number] -%}
     {%- assign translated_goal = t.global_goals[goal_number] -%}
     <div class="goal">
         <div class="frame">
