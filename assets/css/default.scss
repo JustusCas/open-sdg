@@ -622,6 +622,16 @@ h5 + .btn-download {
   background-color: #5cb85c;
 }
 
+.notstarted {
+  background-color: rgb(102, 101, 101);
+}
+.inprogress {
+  background-color: #f04eac;
+}
+.complete {
+  background-color: #1a40ec;
+}
+
 #main-content {
   font-family: 'Roboto', sans-serif;
   background: white;
